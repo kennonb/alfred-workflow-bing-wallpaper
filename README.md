@@ -1,0 +1,1 @@
+# alfred-workflow-bing-wallpaper
