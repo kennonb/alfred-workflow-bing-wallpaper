@@ -1,6 +1,6 @@
-# Alfred Workflow: Bing Wallpaper
+# Bing Wallpaper
 
-This workflow shows the latest 8 wallpapers from [Bing Wallpaper](https://bingwallpaper.microsoft.com/mac/en/bing/bing-wallpaper/?brand=bing&var=1&m=1). Type `bing` into Alfred (without any arguments), and it will show you the list of current wallpapers.
+This workflow shows the latest 8 wallpapers from [Bing Wallpaper](https://bingwallpaper.microsoft.com/mac/en/bing/bing-wallpaper/?brand=bing&var=1&m=1). Type `bing` into Alfred (without any arguments), press `Enter`, and it will show you the list of current wallpapers in a Grid view.
 
 Then it allows you to:
 
@@ -8,8 +8,4 @@ Then it allows you to:
 - Press CMD+Enter to view the wallpaper in your browser.
 - Press Shift, or CMD+Y, to quicklook the image at a reduced resolution.
 
-Before you use the workflow you will need to make sure you have PHP installed on your local system. The easiest way is through [Homebrew](https://homebrew.sh).
-
-- `brew install php`
-
-Then you will need to configure the path to where you want the wallpapers to be stored on your computer.
+By default, this uses the path `~/Pictures`. If you'd like to store these somewhere else, then you will need to configure the path in `Configure Workflow...`. This will tell the scripts where you want the wallpapers to be stored on your computer.
